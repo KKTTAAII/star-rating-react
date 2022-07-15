@@ -1,0 +1,30 @@
+.star-rating {
+  text-align: center;
+  font-size: 2.5em;
+  margin: 50px;
+}
+
+.star-rating-container {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.filled {
+  color: #000;
+}
+
+.empty {
+  color: lightgrey;
+}
+
+.empty, .filled {
+  font-size: 3rem;
+}
